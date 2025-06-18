@@ -21,5 +21,6 @@
 
 ````
 
-
+- Once you haveadded your db config as listed abpve , go to the src folder `cd src` by executing this command from your terminal and then exexutes
+    - `npx sequelize db:create` (Now you are connected to the database)
 
