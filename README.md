@@ -24,3 +24,14 @@
 - Once you haveadded your db config as listed abpve , go to the src folder `cd src` by executing this command from your terminal and then exexutes
     - `npx sequelize db:create` (Now you are connected to the database)
 
+## Database Design
+
+- Airplane Table
+- Flight
+- Airport
+- City
+
+### Associations
+- A flight belongs to an airplane but one airplane can be used in multiple flights
+- A city has many airports but one airport belongs to a city
+- One airport can have many flights, but a flight belongs to one airport
