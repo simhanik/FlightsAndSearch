@@ -21,8 +21,15 @@
 
 ````
 
-- Once you haveadded your db config as listed abpve , go to the src folder `cd src` by executing this command from your terminal and then exexutes
+- Once you haveadded your db config as listed abpve , go to the src folder `cd src` by executing this command from your terminal and then executes
     - `npx sequelize db:create` (Now you are connected to the database)
+
+- Now to create a model to the database you can execute
+    `npx sequelize model:generate --name<modelName> --attributes name:string`(considering name:string as one of the attributes of the model)
+- Now to migrate the model to the database you can execute
+   `npx sequelize db:migrate`
+- If you want to revert your migration then you can execute
+    `npx sequelize db:migrate:undo`
 
 ## Database Design
 
