@@ -9,9 +9,7 @@ const ApiRoutes = require('./src/routes/index.js')
 
 // this is require for the model synchronization
 const db = require('./src/models/index.js')
-const {Airport,City} = require('./src/models/index.js')
-
-const {Airplane} = require('./src/models/index.js')
+const {Airport,City,Airplanes} = require('./src/models/index.js')
 
 const setupAndStartServer = async()=> {
     // create an express object
@@ -36,9 +34,9 @@ const setupAndStartServer = async()=> {
             db.sequelize.sync({alter:true})
         }
 
-        await Airplane.create({
-            modelNumber:'Airbus A300'
-        })
+        // await Airplane.create({
+        //     modelNumber:'Airbus A300'
+        // })
 
     })
 }
