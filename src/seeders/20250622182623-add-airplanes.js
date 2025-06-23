@@ -13,34 +13,40 @@ module.exports = {
      * }], {});
     */
     await queryInterface.bulkInsert('Airplanes',[
-      {
-        modelNumber:'Boeing 737',
-        capacity:280,
-        createdAt:new Date(),
-        updatedAt:new Date()
+      // {
+      //   modelNumber:'Boeing 737',
+      //   capacity:280,
+      //   createdAt:new Date(),
+      //   updatedAt:new Date()
         
-      },
+      // },
+      // {
+      //   modelNumber:'Airbus A320',
+      //   capacity:300,
+      //   createdAt:new Date(),
+      //   updatedAt:new Date()
+      // },
+      // {
+      //   modelNumber:'Boeing 777',
+      //   capacity:280,
+      //   createdAt:new Date(),
+      //   updatedAt:new Date()
+      // },
+      // {
+      //   modelNumber:'Boeing 747',
+      //   capacity:250,
+      //   createdAt:new Date(),
+      //   updatedAt:new Date()
+      // },
+      // {
+      //   modelNumber:'Airbus A330',
+      //   capacity:320,
+      //   createdAt:new Date(),
+      //   updatedAt:new Date()
+      // },
       {
-        modelNumber:'Airbus A320',
-        capacity:300,
-        createdAt:new Date(),
-        updatedAt:new Date()
-      },
-      {
-        modelNumber:'Boeing 777',
-        capacity:280,
-        createdAt:new Date(),
-        updatedAt:new Date()
-      },
-      {
-        modelNumber:'Boeing 747',
-        capacity:250,
-        createdAt:new Date(),
-        updatedAt:new Date()
-      },
-      {
-        modelNumber:'Airbus A330',
-        capacity:320,
+        modelNumber:'Bombardier CRS',
+        capacity:350,
         createdAt:new Date(),
         updatedAt:new Date()
       }
